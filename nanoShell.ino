@@ -50,7 +50,7 @@ body::after {
 </head>
 <body onclick="document.getElementById('cmdInput').focus()">
 <div id="console-container">
-    <div id="output">Welcome to nano-shell v0.0.0<br>Type 'help' for commands.<br><br></div>
+    <div id="output">Welcome to nano-shell v0.1.0<br>Type 'help' for commands.<br><br></div>
     <div class="input-area">
         <span class="user">root@nano</span><span class="seperator">:</span><span class="dir">~</span><span class="final-prompt">#</span>
         <input type="text" id="cmdInput" autocomplete="off" autofocus onkeydown="if(event.key==='Enter') sendCommand()">
