@@ -146,7 +146,8 @@ void setupCommands() {
 
     commands["reboot"] = [](const String&) -> String {
         ESP.restart();
-        return "rebooted";
+        // Wait, the board will already be off, so this doesn't do anything.
+        //return "rebooted";
     };
 
     // Help command
